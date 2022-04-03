@@ -1,4 +1,4 @@
-package study.arrays;
+package study.baekjoon.arrays;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -6,6 +6,8 @@ import java.util.Scanner;
 public class 대소문자변환_p2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+
+        // 풀이1. 문자열 배열로 풀이
         String str[] = in.nextLine().split("");
         char ch = 'a';
         String answer = "";

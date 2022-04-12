@@ -13,6 +13,6 @@ public class DoubleTest2 {
         System.out.println(dnum);
         // 1001이 아닌
         // 1001.000000000159  이 출력되는 것을 볼 수 있다.
-
+        // 부동소수점 방식이 약간의 오차가 있다는 것을 알 수 있다.
     }
 }

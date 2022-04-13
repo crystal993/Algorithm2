@@ -10,7 +10,7 @@ public class 회문문자열_p7_풀이2 {
         String tmp = new StringBuilder(str).reverse().toString();
 
         //2. 뒤집은 단어와 입력한 단어 비교
-        if(!tmp.equals(str)) answer = "NO";
+        if(!tmp.equalsIgnoreCase(str)) answer = "NO";
 
         return answer;
     }

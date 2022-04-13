@@ -1,4 +1,4 @@
-package study.javaStudy;
+package study.javaStudy.javaBasic;
 
 public class ConstantTest {
     public static void main(String[] args) {

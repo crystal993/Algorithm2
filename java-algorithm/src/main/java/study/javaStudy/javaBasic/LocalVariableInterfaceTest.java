@@ -1,4 +1,4 @@
-package study.javaStudy;
+package study.javaStudy.javaBasic;
 
 public class LocalVariableInterfaceTest {
     public static void main(String[] args) {

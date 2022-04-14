@@ -1,4 +1,4 @@
-package study.Inflearn.String;
+package study.Inflearn.String2;
 
 import java.util.Scanner;
 

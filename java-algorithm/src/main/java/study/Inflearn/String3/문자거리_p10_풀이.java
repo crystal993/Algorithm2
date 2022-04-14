@@ -1,6 +1,5 @@
-package study.Inflearn.String;
+package study.Inflearn.String3;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class 문자거리_p10_풀이 {

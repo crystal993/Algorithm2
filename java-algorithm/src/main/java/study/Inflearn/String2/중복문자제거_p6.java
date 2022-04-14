@@ -1,6 +1,5 @@
-package study.Inflearn.String;
+package study.Inflearn.String2;
 
-import java.util.HashSet;
 import java.util.Scanner;
 
 public class 중복문자제거_p6 {

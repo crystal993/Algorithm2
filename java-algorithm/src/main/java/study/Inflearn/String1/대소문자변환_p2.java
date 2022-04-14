@@ -1,6 +1,5 @@
-package study.Inflearn.String;
+package study.Inflearn.String1;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class 대소문자변환_p2 {

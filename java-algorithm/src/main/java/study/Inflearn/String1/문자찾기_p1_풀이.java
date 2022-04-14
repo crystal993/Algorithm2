@@ -1,7 +1,5 @@
-package study.Inflearn.String;
-import com.sun.tools.javac.Main;
+package study.Inflearn.String1;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class 문자찾기_p1_풀이 {

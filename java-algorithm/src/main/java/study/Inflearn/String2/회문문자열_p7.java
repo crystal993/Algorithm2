@@ -1,6 +1,5 @@
-package study.Inflearn.String;
+package study.Inflearn.String2;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class 회문문자열_p7 {

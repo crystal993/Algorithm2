@@ -22,6 +22,6 @@ public class 보이는학생_p2_풀이 { //9분
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();//하나씩 집어넣기
         }
-        System.out.println(T.solution(n, arr);
+        System.out.println(T.solution(n, arr));
     }
 }

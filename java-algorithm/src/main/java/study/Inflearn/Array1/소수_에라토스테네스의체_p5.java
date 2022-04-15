@@ -1,9 +1,8 @@
-package study.Inflearn.Array;
+package study.Inflearn.Array1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 
 public class 소수_에라토스테네스의체_p5 {
     public static void main(String[] args) throws IOException {

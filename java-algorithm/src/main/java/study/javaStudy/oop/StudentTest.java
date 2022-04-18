@@ -17,5 +17,9 @@ public class StudentTest {
         studentKim.address = "경기도 성남시";
 
         studentKim.showStudentInfo();
+        System.out.println();
+        System.out.println("========== 인스턴스의 주소 =============");
+        System.out.println("studentKim = " + studentKim);
+        System.out.println("studentLee = " + studentLee);
     }
 }

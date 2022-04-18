@@ -1,4 +1,5 @@
 package study.Inflearn.Test;
 
-public class Main {
+public class Main{
+
 }

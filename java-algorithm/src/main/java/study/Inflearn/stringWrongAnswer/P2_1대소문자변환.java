@@ -4,7 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class P2대소문자변환 { //3분 41초
+public class P2_1대소문자변환 { //3분 41초
+    //Character.isLowerCase(str), Character.isUpperCase(str) : return boolean
+    //str.toLowerCase(), str.toUpperCase() : return char
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();

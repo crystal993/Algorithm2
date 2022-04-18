@@ -12,11 +12,14 @@ public class P7_1회문문자열 { //5분 27초
         int lt = 0, rt = str.length - 1;
         String answer = "YES";
 
-        for (int i = 0; i < str.length; i++) {
+        while(lt < rt) {
             if(str[lt]!=str[rt]){
                 answer = "NO";
                 break;
-            } answer = "YES";
+            }
+            lt++;
+            rt--;
+            answer = "YES";
         }
 
         System.out.println(answer);

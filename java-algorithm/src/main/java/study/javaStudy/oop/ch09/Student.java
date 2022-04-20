@@ -1,4 +1,4 @@
-package study.javaStudy.ch09;
+package study.javaStudy.oop.ch09;
 
 public class Student {
     int studentId;

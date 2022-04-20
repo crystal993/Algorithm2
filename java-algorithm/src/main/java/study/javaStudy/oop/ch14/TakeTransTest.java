@@ -22,5 +22,13 @@ public class TakeTransTest {
         greenSubway.showSubwayInfo();
         bus500.showBusInfo();
 
+        //taxi타기 예제
+        Student studentC = new Student("Edward",20000);
+        Taxi yellowTaxi = new Taxi("잘 나간다 운수 택시");
+
+        studentC.takeTaxi(yellowTaxi);
+
+        studentC.showInfo();
+        yellowTaxi.showTaxiInfo();
     }
 }

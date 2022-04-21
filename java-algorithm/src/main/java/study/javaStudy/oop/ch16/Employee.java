@@ -2,7 +2,7 @@ package study.javaStudy.oop.ch16;
 
 public class Employee {
 
-    public static int serialNum = 1000;
+    private static int serialNum = 1000;
 
     private int employeeId;
     private String employeeName;
@@ -13,6 +13,13 @@ public class Employee {
     public Employee() {
         serialNum++;
         employeeId = serialNum;
+    }
+
+    // serialNum은 get메서드만
+    public static int getSerialNum() {
+        int i = 0;
+//        employeeName = "Lee"; //static메서드 안에서는 일반멤버변수를 사용할 수 없다.
+        return serialNum; //static변수를 사용할 수 있다.
     }
 
     public int getEmployeeId() {

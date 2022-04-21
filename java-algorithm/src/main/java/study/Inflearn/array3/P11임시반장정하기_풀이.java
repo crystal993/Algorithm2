@@ -35,8 +35,8 @@ public class P11임시반장정하기_풀이 { //33분이상
         int n = sc.nextInt();
         int arr[][] = new int[n+1][6];
         // 0번학생은 없으므로 1번학생 부터 카운팅
-        for (int i = 1; i < n; i++) {
-            for (int j = 1; j < 5; j++) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= 5; j++) {
                 arr[i][j] = sc.nextInt();
             }
         }

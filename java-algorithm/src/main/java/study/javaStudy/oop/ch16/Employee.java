@@ -8,6 +8,13 @@ public class Employee {
     private String employeeName;
     private String department;
 
+    // 생성자 
+    // 인스턴스가 생성이 될때마다 아이디 값이 1씩 증가
+    public Employee() {
+        serialNum++;
+        employeeId = serialNum;
+    }
+
     public int getEmployeeId() {
         return employeeId;
     }

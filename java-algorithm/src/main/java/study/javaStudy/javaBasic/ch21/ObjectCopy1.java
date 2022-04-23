@@ -1,6 +1,6 @@
-package study.javaStudy.oop.ch21;
+package study.javaStudy.javaBasic.ch21;
 
-public class ObjectCopy2 {
+public class ObjectCopy1 {
     public static void main(String[] args) {
         Book[] library = new Book[5];
         Book[] copyLibrary = new Book[5];
@@ -17,14 +17,14 @@ public class ObjectCopy2 {
 
         System.out.println("===library===");
         for (Book book: library) {
-            System.out.println(book); // 객체를 참조할 주소값이 출ㄺ
+            System.out.println(book); // 객체를 참조할 주소값이 출력
             book.showInfo();
         }
 
         // 주소값이 위의 객체들과 같음을 볼 수 있다.
         System.out.println("\n===copyLibrary===");
         for (Book book: copyLibrary) {
-            System.out.println(book); // 객체를 참조할 주소값이 출ㄺ
+            System.out.println(book); // 객체를 참조할 주소값이 출력
             book.showInfo();
         }
 

@@ -1,4 +1,4 @@
-package study.javaStudy.javaBasic.ch21;
+package study.javaStudy.oop.ch21;
 
 public class ObjectCopy1 {
     public static void main(String[] args) {

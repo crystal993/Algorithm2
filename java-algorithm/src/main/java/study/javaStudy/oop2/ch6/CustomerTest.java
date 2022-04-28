@@ -21,18 +21,24 @@ public class CustomerTest {
 
         System.out.println("====== 고객 정보 출력 =======");
 
-        for (Customer customer : customerList) {
-            System.out.println(customer.showCustomerInfo());
+//        for (Customer customer : customerList) {
+//            System.out.println(customer.showCustomerInfo());
+//        }
+//
+//        System.out.println("\n====== 할인율과 보너스 포인트 계산 =======");
+//
+//        int price = 10000;
+//        for (Customer customer : customerList) {
+//
+//            int cost = customer.calPrice(price);
+//            System.out.println(customer.getCustomerName() + "님이 " + cost + "원을 지불하셨습니다. ");
+//            System.out.println(customer.getCustomerName() + "님의 현재 보너스 포인트는 " + customer.bonusPoint + "입니다.");
+//        }
+
+        if( customerE instanceof GoldCustomer) {
+            GoldCustomer vc = (GoldCustomer)customerE;
+            System.out.println(customerE.showCustomerInfo());
         }
 
-        System.out.println("\n====== 할인율과 보너스 포인트 계산 =======");
-
-        int price = 10000;
-        for (Customer customer : customerList) {
-
-            int cost = customer.calPrice(price);
-            System.out.println(customer.getCustomerName() + "님이 " + cost + "원을 지불하셨습니다. ");
-            System.out.println(customer.getCustomerName() + "님의 현재 보너스 포인트는 " + customer.bonusPoint + "입니다.");
-        }
     }
 }

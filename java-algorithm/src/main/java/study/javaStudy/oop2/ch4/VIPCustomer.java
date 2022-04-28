@@ -1,4 +1,4 @@
-package study.javaStudy.oop2.ch3;
+package study.javaStudy.oop2.ch4;
 
 public class VIPCustomer extends Customer {
 
@@ -11,8 +11,6 @@ public class VIPCustomer extends Customer {
         bonusRatio = 0.05;
         salesRatio = 0.1;
         customerGrade = "VIP";
-
-        System.out.println("VIPCustomer(int, String) call");
     }
 
 //    public VIPCustomer(){
@@ -23,6 +21,13 @@ public class VIPCustomer extends Customer {
 //
 //        System.out.println("VIPCustomer() call");
 //    }
+
+    @Override
+    public int calPrice(int price) {
+        bonusPoint += price * bonusRatio;
+        price -= (int)(price * salesRatio);
+        return price;
+    }
 
     public double getSalesRatio() {
         return salesRatio;

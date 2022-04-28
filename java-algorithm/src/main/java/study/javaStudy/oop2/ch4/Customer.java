@@ -1,4 +1,4 @@
-package study.javaStudy.oop2.ch3;
+package study.javaStudy.oop2.ch4;
 
 public class Customer {
     protected int customerId;
@@ -20,8 +20,6 @@ public class Customer {
 
         customerGrade = "SILVER";
         bonusRatio = 0.01;
-
-        System.out.println("Customer(int, String) call");
     }
 
     public int calPrice(int price){

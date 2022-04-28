@@ -37,6 +37,5 @@ public class P1두배열합치기 {
         for (int x : arr) {
             System.out.print(x+" ");
         }
-
     }
 }
